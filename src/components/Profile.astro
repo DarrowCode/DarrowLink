@@ -5,7 +5,7 @@ import SocialMediaLinks from "./SocialMediaLinks.astro";
 
 <div class="flex flex-col items-center justify-center gap-2 p-12">
     {userProfile.map((data)=>(
-        <img class="rounded-full border-4 border-lime-400" src={data.userImage} alt={data.username} loading="lazy" width="250" height="250"/>
+        <img class="rounded-full border-2 border-lime-400" src={data.userImage} alt={data.username} loading="lazy" width="250" height="250"/>
         <h1 class="text-2xl font-bold">{data.username}</h1>
         <p class="text-lg font-semibold text-gray-500">{data.userOccupation}</p>
     ))}

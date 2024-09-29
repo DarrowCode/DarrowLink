@@ -20,7 +20,7 @@ const socialMediaLinks = [
     {
         name: "Twitter",
         url: "https://x.com/ByDarrow",
-        icon: "/icons/x.svg"
+        icon: "/icons/twitter.svg"
     },
     {
         name: "Twitch",
