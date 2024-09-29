@@ -32,7 +32,7 @@ const socialMediaLinks = [
 const userLinks = [
     {
         title: "My Portfolio",
-        url:"",
+        url:"https://byd-web.vercel.app/",
         icon:"/icons/website.svg"
     },
     {
