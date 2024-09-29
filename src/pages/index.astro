@@ -2,11 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import '@/styles/globals.css'
 import Profile from '@/components/Profile.astro';
+import Links from '@/components/Links.astro';
 ---
 
 <Layout title="DarrowCode | Links">
 	<div class="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div>
-	<main>
+	<main class="p-4 h-full w-full space-y-8 pt-12 max-w-lg mx-auto">
 		<Profile />
+		<Links />
 	</main>
 </Layout>

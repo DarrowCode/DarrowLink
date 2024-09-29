@@ -31,20 +31,19 @@ const socialMediaLinks = [
 
 const userLinks = [
     {
-        title: "Portfolio",
+        title: "My Portfolio",
         url:"",
-        icon:"ant-design:code-filled"
-    },
-    {
-        title: "Sucríbete a mi canal",
-        url:"",
-        icon:"mingcute:youtube-fill"
-
+        icon:"/icons/website.svg"
     },
     {
         title: "Join Discord",
-        url:"",
-        icon:"ic:outline-discord"
+        url:"ttps://discord.gg/CWHmCUrWhY",
+        icon: "/icons/discord.svg"
+    },
+    {
+        title: "Contact Me",
+        url:"mailto:darrowcode@gmail.com",
+        icon: "/icons/mail.svg"
     },
 ]
 
