@@ -1,47 +1,51 @@
-const userData = [
+const userProfile = [
   {
-    username: "admin",
-    userOccupation: "Admin",
-    userImage: "",
+    username: "Adrian Alvarez Rodriguez | DarrowCode",
+    userOccupation: "Web Developer",
+    userImage: "https://github.com/DarrowCode.png",
   },
 ];
 
 const socialMediaLinks = [
     {
         name: "GitHub",
-        link: ""
+        url: "https://github.com/DarrowCode",
+        icon: "/icons/github.svg"
     },
     {
         name: "LinkedIn",
-        link: ""
+        url: "https://www.linkedin.com/in/adrianalro19/",
+        icon: "/icons/linkedin.svg"
     },
     {
         name: "Twitter",
-        link: ""
+        url: "https://x.com/ByDarrow",
+        icon: "/icons/x.svg"
     },
     {
-        name: "Instagram",
-        link: ""
+        name: "Twitch",
+        url: "https://twitch.tv/bydarrow",
+        icon: "/icons/twitch.svg"
     }
 ];
 
 const userLinks = [
     {
         title: "Portfolio",
-        link:"",
+        url:"",
         icon:"ant-design:code-filled"
     },
     {
         title: "Sucríbete a mi canal",
-        link:"",
+        url:"",
         icon:"mingcute:youtube-fill"
 
     },
     {
         title: "Join Discord",
-        link:"",
+        url:"",
         icon:"ic:outline-discord"
     },
 ]
 
-export { userData, socialMediaLinks, userLinks };
+export { userProfile, socialMediaLinks, userLinks };
