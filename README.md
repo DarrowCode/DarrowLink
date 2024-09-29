@@ -1,54 +1,45 @@
-# Astro Starter Kit: Basics
+# DarrowLink
 
-```sh
-npm create astro@latest -- --template basics
-```
+DarrowLink is a multiple links page similar to Linktree or Bacon. It allows users to create a single page with multiple links to their social media profiles, websites, and other online content.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Easy to use interface
+- Customizable link appearance
+- Responsive design for mobile and desktop
+- Analytics to track link clicks
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Installation
 
-## 🚀 Project Structure
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/DarrowLink.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd DarrowLink
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
 
-Inside of your Astro project, you'll see the following folders and files:
+## Usage
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+1. Start the development server:
+    ```sh
+    npm start
+    ```
+2. Open your browser and go to `http://localhost:3000`
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Contributing
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## License
 
-## 🧞 Commands
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-All commands are run from the root of the project, from a terminal:
+## Contact
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+For any inquiries, please contact [yourname@example.com](mailto:yourname@example.com).
